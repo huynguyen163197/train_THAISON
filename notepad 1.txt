@@ -1,0 +1,30 @@
+					
+					*** 1 MÃ SỐ THUẾ CHỈ CẤP CHO 1 TÀI KHOẢNG TRÌNH KÝ ***
+FUCTION tờ khai:
+		=> cổng ký : truyền trong mạng LAN
+		trình ký : mình có thể kích hoạt tài khoảng cho doanh nghiệp
+	
+	TRƯƠC KHI KHAI TRONG TỜ KHAI HAI QUAN
+	
+		+ KHAI BÁO HYS : NHIỆP VỤ KHÁC (IN ECUS5VNACCS) => ĐĂNG KÝ CÁC FILE TÍNH KÈO\
+		
+		
+		SỐ ĐỊNH DÁNH: BẮT BUỘC KHAI ĐÔI VS HÀNG XUẤT KHẨU ===> PHẢI KHAI TRƯỚC TỜ KHAI : ĐỊNH NGHĨA => NÓ NHƯ LÀ 1 SỐ THỨ TỰ
+		
+		
+		FUNCTION KHAI SỐ ĐỊNH DANH DỐI VS HÀNG XUẤT KHẨU ';
+				+ TỜ KHAI HAIRQUAN -> KHAI BÁO BỔ SUNG -> ĐĂNG KÝ SỐ ĐỊNH DANH HÀNG HÓA
+				+ SỐ ĐỊNH DANH ÁP DỤNG TẠI CACGR BIỂN TRÊN TOÀN QUỐC
+							   CÒN CHỈ ÁP DỤNG CHO CẢNG HÀNG KHÔNG Ở SÂN BAY NỘI BÀI
+							  
+		************************* TỜ KHAI HẢI QUAN (NHẬP - 10000....,XUẤT - 30000....) *************************************
+		
+		THUẬT NGỮ: KHAI TRƯỚC: KHI KHAI BÁO HỆ THỐNG SẼ LƯU TRỮ TRONG 7 NGÀY
+		BƯỚC SỐ 6: XEM LẠI TỜ KHAI ĐÃ KHAI BÁO TRONG 7 NGÀY : CÁCH XEM ==> TỜ KHIA HQ -> LẤY THÔNG TIN TỜ KHAI -> XE THÔNG TIN TỜ KHAI (IID)
+		
+		
+		100 KÝ TỰ Ở DÒNG CUỐI THÔNG TIN CHUNG.
+		
+		************************* THUẾ VÀ BẢO LÃNH *************************************
+		
+		

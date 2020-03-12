@@ -1,0 +1,32 @@
+Ecus: 
+
++ sơ đồ HQ: TỔNG CỤC HQ -> CỤC HQ -> CHI CỤC -> CÁC PHÒNG BAN(mình làm p. thủ tục XNK), <- Doanh nghiệp(VNACSS)
+
++ nếu mất data khi restore từ .bak thì báo khách hàng gửi công văn lên CỤC -> Tổng CỤC để xin lại ~ tờ khai bị mất
+
++ gở ra rồi cài lại vs tools. thường use tools để làm cho nhanh
+ +++++++++
+-*** trước khi sao lưu data cx doanh nghiệp thì mình nên: => TẠO 1 thư muc: '"DU LIEU" + Date + "name"'
+							  => coppy data(.mdf,.lof) vào thư mục đó
+
+-**** TRƯỚC KHI VÔ APP cx doanh nghiệp thì phải SAO LƯU data trước
+
+****** NẾU THẤY PHẦN MỀM MISA THÌ NÊN THAM VẤN VỀ SỬ DỤNG SQL 2008 VÌ PHẦM MỀM MISA NÓ DẼ XUNG ĐỘT VS PM ECUSS DO TRÙNG SQL 2005
+
+sql
+2000 => GIỚI HẠN 2GB/1 DATABASE
+2005 => 4GB/1 DATABASE
+2008=> ==> 10GB/1 DATABASE
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PHÂN LUỒNG 
+	==> XANH : -> CÓ ĐIỀU KIỆN: CÓ THUẾ VÀ ĐÃ NỘP THẾ
+							====> THÔNG QUAN
+		   -> KO ĐIỀU KIỆN: KO ĐỐNG THUẾ, MIỄN THUẾ
+	
+	==> VANG : -> DOANH NGHIỆP BỊ KIẾM TRA CHỨNG TỪ ===> THÔNG QUAN
+
+	==> ĐỎ : -> KTRA CHỨNG TỪ
+				   ===> THÔNG QUAN
+		 -> KIỂM TRA HÀNG HÓA
+
